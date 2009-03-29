@@ -1,9 +1,9 @@
-= harsh
-
+harsh
+=====
 * http://www.carboni.ca/
 
-== DESCRIPTION:
-
+DESCRIPTION:
+============
 "Harsh: Another Rails Syntax Highlighter," is just that - it highlights code
 in Rails, much like Radiograph or tm_syntax_highlighting. However, it does it well, _better_.
 Oh, and it also supports Haml, as well as ERb. And it comes with rake tasks.
@@ -61,13 +61,15 @@ The rake tasks for setting up your stylesheets are these:
 While purely informative, you can find out the available syntaxes as follows:
     rake harsh:syntax:list
 
-== FEATURES/PROBLEMS:
+FEATURES/PROBLEMS
+=================
 
 * Syntax highlighting with text as a parameter AND block form!
 * Rake tasks for setting up your stylesheets!
 * Free hat!
 
-== SYNOPSIS:
+SYNOPSIS
+========
 
 You can pass any of these parameters to tweak things:
     <% harsh :theme => :dawn, :lines => true, :format => :css do %>
@@ -77,6 +79,7 @@ You can pass any of these parameters to tweak things:
         position:relative;
       }
     <% end %>
+    
 In its default form though, harsh will use the twilight theme, no lines, and
 will expect Ruby code.
 
@@ -101,13 +104,15 @@ For Haml:
 The #!harsh line is a configuration line that is optional. Notice that the parameter is "syntax=css",
 not "format" as is the case with the ERb helper.
 
-== REQUIREMENTS:
+REQUIREMENTS
+============
 
-oniguruma - a regex library. See installation.
-ultraviolet gem - this does the highlighting. See installation.
-haml - if you want to use the haml filter. duh.
+* oniguruma - a regex library. See installation.
+* ultraviolet gem - this does the highlighting. See installation.
+* haml - if you want to use the haml filter. duh.
 
-== INSTALL:
+INSTALL
+=======
 
 First, you'll need oniguruma - a regex library. If you don't think you have this, you probably don't.
 To install it, do the following:
@@ -122,7 +127,8 @@ ultraviolet gem - do this AFTER oniguruma!
 Then, install this plugin:
     script/plugin install git://github.com/michaeledgar/harsh.git
 
-== LICENSE:
+LICENSE
+=======
 
 (The MIT License)
 
