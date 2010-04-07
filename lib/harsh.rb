@@ -58,6 +58,7 @@ module Harsh
         Harsh::DEFAULT_OPTIONS[k] = v
       end
     end
+    alias_method :defaults=, :defaults
   end
   
   private
