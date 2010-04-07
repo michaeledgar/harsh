@@ -111,6 +111,12 @@ REQUIREMENTS
 * ultraviolet gem - this does the highlighting. See installation.
 * haml - if you want to use the haml filter. duh.
 
+CONTRIBUTORS
+============
+
+* Michael Edgar
+* Evan Sagge
+
 INSTALL
 =======
 
